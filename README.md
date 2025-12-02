@@ -1,41 +1,19 @@
-<h1 align="center">💸 Wallet - Expense Tracker with React Native & Express 🚀</h1>
+```bash
+ ## Visão Geral dos Recursos do Aplicativo
+🔐 Autenticação com verificação de e-mail usando Clerk
 
-![Demo App](/mobile/assets/images/screenshot-for-readme.png)
+📝 Fluxos de Cadastro e Login com código de 6 dígitos por e-mail
 
-## 🎯 What You'll Build
+🏠 Tela Inicial que mostra seu saldo atual e transações passadas
 
-This isn't just a front-end app — it's a **complete mobile application** with backend integration, authentication, and cloud-based storage.
+➕ Tela de Criação para adicionar transações de receita (income) ou despesa (expense)
 
-✅ Works on **iOS & Android (simulator or real device)**  
-✅ Uses your existing **React knowledge**  
-✅ No need for Swift, Kotlin, or native modules  
-✅ Full-stack project in **under 4 hours**
+🔄 Funcionalidade de "Pull to refresh" (puxar para atualizar) construída do zero
 
----
+🗑️ Excluir transações para atualizar o saldo
 
-## 🧑‍🍳 App Features Overview
-
-- 🔐 **Authentication** with email verification using **Clerk**
-- 📝 **Signup & Login** flows with 6-digit email code
-- 🏠 **Home Screen** that shows your current balance & past transactions
-- ➕ **Create Screen** to add **income** or **expense** transactions
-- 🔄 **Pull to refresh** functionality from scratch
-- 🗑️ **Delete transactions** to update balance
-- 🚪 **Logout** to navigate back to login screen
-
----
-
-## 🧠 What You’ll Learn
-
-- ⚙️ Build and deploy an **Express API** with **PostgreSQL** using **Neon**
-- 🔐 Implement authentication & email verification with **Clerk**
-- 📲 Build a full mobile app with **React Native & Expo**
-- 🧵 Manage state and navigation using **React Navigation**
-- 🛡️ Understand and apply **Rate Limiting** using **Redis**
-- 🚀 Deploy both backend & mobile with cloud-based tools
-- 🧪 Beginner-friendly for first-time React Native devs
-
----
+🚪 Sair (Logout) para navegar de volta para a tela de login
+```
 
 ## 📁 .env Setup
 
@@ -59,7 +37,7 @@ REDIS_URL=<your_redis_connection_url>
 EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_key>
 ```
 
-## ⚙️ Run the backend
+## Executar o Backend
 
 ```bash
 cd backend
@@ -68,7 +46,7 @@ npm run dev
 
 ```
 
-## 📱 Run the mobile
+## Executar o Mobile
 
 ```bash
 cd mobile
